@@ -6,6 +6,9 @@ https://github.com/TwilightImperiumContentCreators/TTS-TwilightImperium
 This file contains classes, functions, and tables for the domain models
 for Twilight Imperium
 --]]
+local pairs, setmetatable,       concat,        upper,        format
+    = pairs, setmetatable, table.concat, string.upper, string.format
+local _ENV = {}
 Constants = {
   PlanetTypes = {
     None = "None",
