@@ -96,33 +96,31 @@ end
 --[[ A single tile of the board
 
 Provides a view into planets and anomalies local to the tile
---]] 
-  function MapTile(id, planets, anomolies)
-    -- public members
-    local self = {
-      -- the numeric Id of the tile as shown center-left of the tile art.
-      id = id or -1,
-      -- a table containing a list of plants on this tile.
-      planets = planets or {},
-      -- a table containing the anomolies on this tile.
-      anomolies = anomolies or {}
-    }
-
-    function self.containsPlanet(planetName)
-      for _,v in pairs(self.planets) do
-        if v:upper() == planetName:upper() then
-          return true
-        end
-      end
-      return false
-    end
-
-    function self.toString()
-      return id ..
-             ((#planets ~= 0) and (" - " .. table.concat(planets, ", ")) or "") ..
-             ((#anomolies ~= 0) and (" - " .. table.concat(anomolies, ", ")) or "")
-    end
-
-    -- return the instance
-    return self
+--]]
+MapTile = {}
+MapTile.__index = MapTile
+function MapTile:__tostring()
+  return self.description
+end
+function MapTile:containsPlanet(name)
+  return self.planets[upper(name)] or false
+end
+function MapTile:new(
+  id, -- the numeric Id of the tile as shown center-left of the tile art.
+  planets, -- a table containing a list of plants on this tile.
+  anomolies -- a table containing the anomolies on this tile.
+)
+  local planetSet = {}
+  for _, name in pairs(planets) do
+    planetSet[upper(name)] = true
   end
+  return setmetatable({
+    id = id or -1,
+    planets = planetSet,
+    anomolies = anomolies or {},
+    description = format("%d%s%s",
+                    id,
+                    #planets > 0 and " - " .. concat(planets, ", ") or "",
+                    #anomolies > 0 and " - " .. concat(anomolies, ", ") or "")
+  }, MapTile)
+end
