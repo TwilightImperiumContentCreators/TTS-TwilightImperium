@@ -59,36 +59,39 @@ function Exhaustable:new()
 end
 
 -- An individual Planet
-function Planet(name, tileId, resources, influence, planetType, technologySpeciality)
-    -- public members
-    local self = Exhaustable()
-    -- the name of the planet
-    self.name = name or 'unknown'
-    -- the id of the tile associated with this planet or -1 for 'none'
-    self.tileId = tileId or -1
-    -- the resources provided by this planet
-    self.resources = resources or 0
-    -- the influence provided by this planet
-    self.influence = influence or 0
-    -- the type of this planet
-    self.planetType = planetType or Constants.PlanetTypes.None
-    -- the technologySpeciality provided by the planet
-    self.technologySpeciality = technologySpeciality or Constants.TechnologySpeciality.None
-
-    function self.toString()
-      return (tileId ~= -1 and "("..tileId..")" or "") ..
-             name ..
-             " - " ..
-             resources .. "R " ..
-             influence .. "I" ..
-             (planetType ~= Constants.PlanetType.None and (" - " .. planetType) or "") ..
-             (technologySpeciality  ~= Constants.TechnologySpeciality.None and (" - " .. technologySpeciality)  or "") ..
-             (exhausted and " |Exhausted|"  or " |Ready|")
-    end
-
-    -- return the instance
-    return self
-  end
+Planet = {}
+-- Subclass Exhaustable
+for k, v in pairs(Exhaustable) do
+  Planet[k] = v
+end
+function Planet:__tostring()
+  return format("%s%s - %dR %dI%s%s |%s|",
+            self.tileId ~= -1 and "("..self.tileId..")" or "",
+            self.name,
+            self.resources,
+            self.influence,
+            self.planetType ~= Constants.PlanetTypes.None and (" - " .. self.planetType) or "",
+            self.technologySpeciality  ~= Constants.PlanetTypes.TechnologySpeciality.None and (" - " .. self.technologySpeciality)  or "",
+            self.exhausted and "Exhausted"  or "Ready")
+end
+function Planet:new(
+  name, -- the name of the planet
+  tileId, -- the id of the tile associated with this planet or -1 for 'none'
+  resources, -- the resources provided by this planet
+  influence, -- the influence provided by this planet
+  planetType, -- the type of this planet
+  technologySpeciality -- the technologySpeciality provided by the planet
+)
+  return setmetatable({
+    name = name or 'unknown',
+    tileId = tileId or -1,
+    resources = resources or 0,
+    influence = influence or 0,
+    planetType = planetType or Constants.PlanetTypes.None,
+    technologySpeciality = technologySpeciality
+      or Constants.PlanetTypes.TechnologySpeciality.None
+  }, Planet)
+end
 
 --[[ A single tile of the board
 
