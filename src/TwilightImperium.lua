@@ -113,7 +113,7 @@ function Planet(name, tileId, resources, influence, planetType, technologySpecia
 
     function self.containsPlanet(planetName)
       for _,v in pairs(self.planets) do
-        if string.upper(v) == string.upper(planetName) then
+        if v:upper() == planetName:upper() then
           return true
         end
       end
