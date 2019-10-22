@@ -1,12 +1,11 @@
--- TwilightImperium.lua
--- Firoso 2019
--- Written for use by the Twilight Imperium Tabletop Simulator Community
--- https://github.com/TwilightImperiumContentCreators/TTS-TwilightImperium
+--[[ TwilightImperium.lua - Firoso 2019
 
--- This file contains classes, functions, and tables for the domain models
--- for Twilight Imperium
+Written for use by the Twilight Imperium Tabletop Simulator Community
+https://github.com/TwilightImperiumContentCreators/TTS-TwilightImperium
 
--- STATIC DEFINITIONS --
+This file contains classes, functions, and tables for the domain models
+for Twilight Imperium
+--]]
 Constants = {
   PlanetTypes = {
     None = "None",
@@ -40,8 +39,7 @@ Constants = {
 }
 
 -- ABSTRACTIONS --
--- the class 'Exhaustable' used to represent assets that can be
--- exhausted to gain some benefit.
+-- Represents assets that can be exhausted to gain some benefit.
 function Exhaustable()
     -- public members
     local self = {
@@ -65,8 +63,7 @@ function Exhaustable()
     return self
   end
 
-  -- The class 'Planet' used to represent the data for individual planets
-  -- as well as supporting methods for working with those planets.
+-- An individual Planet
 function Planet(name, tileId, resources, influence, planetType, technologySpeciality)
     -- public members
     local self = Exhaustable()
@@ -98,8 +95,10 @@ function Planet(name, tileId, resources, influence, planetType, technologySpecia
     return self
   end
 
-  -- The class 'MapTile' used to represent the data for the Map tiles as well as
-  -- supporting methods for working with those tiles.
+--[[ A single tile of the board
+
+Provides a view into planets and anomalies local to the tile
+--]] 
   function MapTile(id, planets, anomolies)
     -- public members
     local self = {
