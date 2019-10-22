@@ -124,3 +124,4 @@ function MapTile:new(
                     #anomolies > 0 and " - " .. concat(anomolies, ", ") or "")
   }, MapTile)
 end
+return _ENV
