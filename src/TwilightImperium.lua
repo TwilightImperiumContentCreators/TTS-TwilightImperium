@@ -16,13 +16,11 @@ Constants = {
     Cultural = "Cultural",
     Industrial = "Industrial",
     MecatolRex = "Mecatol Rex",
-    HomeWorlds =
-    {
+    HomeWorlds = {
       Sol = "Sol HomeWorld",
       -- etc
     },
-    TechnologySpeciality =
-    {
+    TechnologySpeciality = {
       None = "",
       Red = "Red - Warfare",
       Blue = "Blue - Propulsion",
@@ -43,28 +41,22 @@ Constants = {
 
 -- ABSTRACTIONS --
 -- Represents assets that can be exhausted to gain some benefit.
-function Exhaustable()
-    -- public members
-    local self = {
-      -- indicates if this asset is exhausted or not
-      exhausted = false,
-    }
-
-    function self.exhaust()
-      if exhausted then
-        error ("Already exhausted", 2)
-      end
-
-      exhausted = true
-    end
-
-    function self.ready()
-      exhausted = false
-    end
-
-    -- return the instance
-    return self
+local Exhaustable = {}
+Exhaustable.__index = Exhaustable
+function Exhaustable:exhaust()
+  if self.exhausted then
+    return false, "Already exhausted"
   end
+
+  self.exhausted = true
+  return true
+end
+function Exhaustable:ready()
+  self.exhausted = true
+end
+function Exhaustable:new()
+  return setmetatable({ exhausted = false }, Exhaustable)
+end
 
 -- An individual Planet
 function Planet(name, tileId, resources, influence, planetType, technologySpeciality)
