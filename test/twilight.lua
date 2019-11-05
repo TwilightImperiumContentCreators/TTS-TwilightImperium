@@ -1,4 +1,4 @@
-package.path = "?.lua;?/init.lua"
+package.path = "?.lua;?/twilight.lua"
 local TI = require("src")
 
 assert(tostring(TI.MapTile:new(1, {'Jord', "Jard"}, {"ɑ", "ᵝ"}))

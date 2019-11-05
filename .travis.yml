@@ -5,4 +5,4 @@ env:
 before_install:
   sudo apt-get install -y $LUA
 script:
-  - $LUA test/init.lua
+  - $LUA test/twilight.lua
