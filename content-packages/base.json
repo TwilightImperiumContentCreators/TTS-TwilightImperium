@@ -1,0 +1,111 @@
+{
+    "id": "base",
+    "name": "Twilight Imperium",
+    "version": "0.0.0",
+    "date": "7/19/2020 13:38 PST",
+    "releaseNotes": [
+      "0.0.0 - Test package."
+    ],
+    "homepageUrl": "https://github.com/TwilightImperiumContentCreators/TTS-TwilightImperium",
+    "author": "Fantasy Flight Games",
+    "packageOwner": "PolyphonyRequiem",
+    "factions": [
+      {
+          "id": "winnu",
+          "name": "The Winnu",
+          "lore": {
+            "portraitUrl": "https://timod.blob.core.windows.net/mod-assets/faction-portraits/Winnu.jpg"
+          },
+          "startingTechnologies":[
+              {
+                "rule": "oneOf",
+                [
+                  "neural-motivator",
+                  "antimass-deflectors",
+                  "sarween-tools",
+                  "plasma-scoring"
+                ]
+              }
+          ],
+          "startingFleet":[
+            {
+              "unit": "carrier",
+              "count": 1
+            },
+            {
+              "unit": "cruiser",
+              "count": 1
+            },
+            {
+              "unit": "fighter",
+              "count": 2
+            },
+            {
+              "unit": "infantry",
+              "count": 2
+            },
+            {
+              "unit": "space-dock",
+              "count": 1
+            },
+            {
+              "unit": "pds",
+              "count": 1
+            }
+          ],
+          "homeworldTileId": "07",
+          "factionSheet": {
+            "frontUrl": "https://timod.blob.core.windows.net/mod-assets/faction-sheets/winnu-front.jpg",
+            "backUrl": "https://timod.blob.core.windows.net/mod-assets/faction-sheets/winnu-back.jpg"
+          },
+          "controlToken": {
+            "diffuseUrl": "https://timod.blob.core.windows.net/mod-assets/faction-control-tokens/winnu.jpg"
+          },
+          "commandToken": {
+            "diffuseUrl": "https://timod.blob.core.windows.net/mod-assets/faction-command-tokens/winnu.jpg"
+          },
+          "factionTokens": [],
+          "factionTechnologies": [
+              {
+                  "id": "hegemonic-trade-policy",
+                  "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg"
+                  "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg"
+                  "row": 6,
+                  "column": 3
+              },
+              {
+                "id": "lazax-gate-folding",
+                "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg"
+                "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg"
+                "row": 6,
+                "column": 4
+              }
+          ],
+          "factionUnits": [
+            {
+              "type":"flagship"
+
+            }
+          ],
+          "factionPromisoryNotes":[
+            {
+              "id": "acquiescence",
+              "name": "Acquiescence",
+              "description": "alt-text"
+            }
+          ]
+        }
+      }
+    ],
+    "mapTiles": [],
+    "strategyCards": [],
+    "units": [],
+    "promisoryNotes": [],
+    "planets": [],
+    "objectives": [],
+    "actionCards": [],
+    "agendaCards": [],
+    "tokens": [],
+    "rules": [],
+    "note": {}
+}
