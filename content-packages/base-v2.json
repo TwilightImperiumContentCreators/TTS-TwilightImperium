@@ -1,0 +1,17 @@
+{
+  "assets":
+  {
+    "decks": [
+      {
+        "id": "technologies",
+        "displayName": "Technologies",
+        "tooltip": "The technologies available to a player to research",
+        "frontUri": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg",
+        "backUri": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg",
+        "columns": 10,
+        "rows": 6,
+        "isSingleImageBack": false
+      }
+    ]
+  }
+}

@@ -68,15 +68,15 @@
           "factionTechnologies": [
               {
                   "id": "hegemonic-trade-policy",
-                  "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg"
-                  "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg"
+                  "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg",
+                  "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg",
                   "row": 6,
                   "column": 3
               },
               {
                 "id": "lazax-gate-folding",
-                "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg"
-                "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg"
+                "frontUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg",
+                "backUrl": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg",
                 "row": 6,
                 "column": 4
               }
