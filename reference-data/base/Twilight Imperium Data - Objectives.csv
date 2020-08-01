@@ -1,0 +1,42 @@
+id,name,text,phase,victoryPoints,type
+make_an_example_of_their_world,Make an Example of Their World,Use BOMBARDMENT to destory the last of a player's ground forces on a planet.,action,1,secret
+spark_a_rebellion,Spark a Rebellion,Win a combat againt a player who has the most victory points.,action,1,secret
+turn_their_fleets_to_dust,Turn Their Fleets to Dust,Use SPACE CANNON to destroy the last of a player's ships in a system.,action,1,secret
+unveil_flagship,Unveil Flagship,"Win a space combat in a system that contains your flagship.
+You cannot score this objective if your flagship is destroyed in the combat.",action,1,secret
+destroy_their_greatest_ship,Destroy Their Greatest Ship,Destroy another player's war sun or flagship.,action,1,secret
+adapt_new_strategies,Adapt New Strategies,Own 2 faction technologies.,status,1,secret
+master_the_laws_of_physics,Master the Laws of Physics,Own 4 technologies of the same color.,status,1,secret
+establish_a_perimeter,Establish a Perimeter,Have 4 PDS units on the game board.,status,1,secret
+from_a_spy_network,Form a Spy Network,Discard 5 action cards.,status,1,secret
+fuel_the_war_machine,Fuel the War Machine,Have 3 space docks on the game board.,status,1,secret
+gather_a_mighty_fleet,Gather a Mighty Fleet,Have 5 dreadnaughts on the game board.,status,1,secret
+forge_an_alliance,Forge an Alliance,Control 4 cultural planets.,status,1,secret
+learn_secrets_of_the_cosmos,Learn Secrets of the Cosmos,Have 1 or more ships in 3 systems that are each adjacent to an anomaly.,status,1,secret
+threaten_enemies,Threaten Enemies,Have 1 or more ships in a system that is adjacent to another player's home system.,status,1,secret
+become_the_gatekeeper,Become the Gatekeeper,Have 1 or more ships in a system that contains an alpha wormhole and 1 or more ships in a system that contains a beta wormhole.,status,1,secret
+cut_supply_lines,Cut Supply Lines,Have 1 or more ships in the same system as another player's space dock.,status,1,secret
+mine_rare_metals,Mine Rare Metals,Control 4 hazardous planets.,status,1,secret
+monopolize_production,Monopolize Production,Control 4 industrial planets.,status,1,secret
+occupy_the_seat_of_the_empire,Occupy the Seat of the Empire,Control Mecatol Rex and have 3 or more ships in its system.,status,1,secret
+control_the_region,Control the Region,Have 1 or more ships in 6 systems.,status,1,secret
+intimidate_council,Intimidate Council,Have 1 or more ships in 2 systems that are adjacent to Mecatol Rex's system.,status,1,phase1
+expand_borders,Expand Borders,Control 6 planets in non-home systems.,status,1,phase1
+corner_the_market,Corner the Market,Control 4 planets that each have the same planet trait.,status,1,phase1
+found_research_outposts,Found Research Outposts,Control 3 planets that have technology specialties.,status,1,phase1
+diversify_research,Diversify Research,Own 2 technologies in each of 2 colors.,status,1,phase1
+develop_weaponry,Develop Weaponry,Own 2 unit upgrade techonologies.,status,1,phase1
+erect_a_monument,Erect a Monument,Spend 8 resources.,status,1,phase1
+lead_from_the_front,Lead From the Front,Spend a total of 3 tokens from your tactic and/or strategy pools.,status,1,phase1
+negotiate_trade_routes,Negotiate Trade Routes,Spend 5 trade goods.,status,1,phase1
+sway_the_council,Sway the Council,Spend 8 influence.,status,1,phase1
+form_galactic_brain_trust,Form Galactic Brain Trust,Control 5 planets that have technology specialties.,status,2,phase2
+conquer_the_weak,Conquer the Weak,Control 1 planet that is in another player's home system.,status,2,phase2
+subdue_the_galaxy,Subdue the Galaxy,Control 11 planets in non-home systems.,status,2,phase2
+unify_the_colonies,Unify the Colonies,Control 6 planets that each have the same planet trait.,status,2,phase2
+master_the_sciences,Master the Sciences,Own 2 techologies in each of 4 colors.,status,2,phase2
+revolutionize_warfare,Revolutionize Warfare,Own 3 unit upgrade technologies.,status,2,phase2
+galvanize_the_people,Galvanize the People,Spend a total of 6 tokens from your tactic and/or strategy pools.,status,2,phase2
+manipulate_galactic_law,Manipulate Galactic Law,Spend 16 influence.,status,2,phase2
+found_a_golden_age,Found a Golden Age,Spend 16 resources.,status,2,phase2
+centralize_galactic_trade,Centralize Galactic Trade,Spend 10 trade goods.,status,2,phase2

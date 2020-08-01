@@ -4,15 +4,25 @@
 --- DateTime: 7/30/2020 2:23 PM
 
 ---@class ContentManager
+---@field contentSequence ContentPackage[]
 local ContentManager = {}
 
----@param contentSequence ContentPackage[]
 ---@return ContentManager
-function ContentManager:new (contentSequence)
-    local o = {contentSequence = contentSequence};
-    setmetatable(o, self)
-    self.__index = self
-    return o
+function ContentManager:new ()
+  local o = {contentSequence = {}};
+  setmetatable(o, self)
+  self.__index = self
+  return o
+end
+
+---@param contentPackage ContentPackage
+function ContentManager:addContentPackage(contentPackage)
+  table.insert(self.contentSequence, contentPackage);
+end
+
+---@return ContentPackage
+function ContentManager:flatten ()
+  return self.contentSequence[1];
 end
 
 return ContentManager;

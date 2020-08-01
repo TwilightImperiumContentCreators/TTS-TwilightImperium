@@ -1,0 +1,322 @@
+[
+    {
+      "id": "make_an_example_of_their_world",
+      "name": "Make an Example of Their World",
+      "text": "Use BOMBARDMENT to destory the last of a player's ground forces on a planet.",
+      "phase": "action",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "spark_a_rebellion",
+      "name": "Spark a Rebellion",
+      "text": "Win a combat againt a player who has the most victory points.",
+      "phase": "action",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "turn_their_fleets_to_dust",
+      "name": "Turn Their Fleets to Dust",
+      "text": "Use SPACE CANNON to destroy the last of a player's ships in a system.",
+      "phase": "action",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "unveil_flagship",
+      "name": "Unveil Flagship",
+      "text": "Win a space combat in a system that contains your flagship.\nYou cannot score this objective if your flagship is destroyed in the combat.",
+      "phase": "action",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "destroy_their_greatest_ship",
+      "name": "Destroy Their Greatest Ship",
+      "text": "Destroy another player's war sun or flagship.",
+      "phase": "action",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "adapt_new_strategies",
+      "name": "Adapt New Strategies",
+      "text": "Own 2 faction technologies.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "master_the_laws_of_physics",
+      "name": "Master the Laws of Physics",
+      "text": "Own 4 technologies of the same color.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "establish_a_perimeter",
+      "name": "Establish a Perimeter",
+      "text": "Have 4 PDS units on the game board.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "from_a_spy_network",
+      "name": "Form a Spy Network",
+      "text": "Discard 5 action cards.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "fuel_the_war_machine",
+      "name": "Fuel the War Machine",
+      "text": "Have 3 space docks on the game board.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "gather_a_mighty_fleet",
+      "name": "Gather a Mighty Fleet",
+      "text": "Have 5 dreadnaughts on the game board.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "forge_an_alliance",
+      "name": "Forge an Alliance",
+      "text": "Control 4 cultural planets.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "learn_secrets_of_the_cosmos",
+      "name": "Learn Secrets of the Cosmos",
+      "text": "Have 1 or more ships in 3 systems that are each adjacent to an anomaly.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "threaten_enemies",
+      "name": "Threaten Enemies",
+      "text": "Have 1 or more ships in a system that is adjacent to another player's home system.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "become_the_gatekeeper",
+      "name": "Become the Gatekeeper",
+      "text": "Have 1 or more ships in a system that contains an alpha wormhole and 1 or more ships in a system that contains a beta wormhole.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "cut_supply_lines",
+      "name": "Cut Supply Lines",
+      "text": "Have 1 or more ships in the same system as another player's space dock.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "mine_rare_metals",
+      "name": "Mine Rare Metals",
+      "text": "Control 4 hazardous planets.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "monopolize_production",
+      "name": "Monopolize Production",
+      "text": "Control 4 industrial planets.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "occupy_the_seat_of_the_empire",
+      "name": "Occupy the Seat of the Empire",
+      "text": "Control Mecatol Rex and have 3 or more ships in its system.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "control_the_region",
+      "name": "Control the Region",
+      "text": "Have 1 or more ships in 6 systems.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "secret"
+    },
+    {
+      "id": "intimidate_council",
+      "name": "Intimidate Council",
+      "text": "Have 1 or more ships in 2 systems that are adjacent to Mecatol Rex's system.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "expand_borders",
+      "name": "Expand Borders",
+      "text": "Control 6 planets in non-home systems.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "corner_the_market",
+      "name": "Corner the Market",
+      "text": "Control 4 planets that each have the same planet trait.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "found_research_outposts",
+      "name": "Found Research Outposts",
+      "text": "Control 3 planets that have technology specialties.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "diversify_research",
+      "name": "Diversify Research",
+      "text": "Own 2 technologies in each of 2 colors.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "develop_weaponry",
+      "name": "Develop Weaponry",
+      "text": "Own 2 unit upgrade techonologies.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "erect_a_monument",
+      "name": "Erect a Monument",
+      "text": "Spend 8 resources.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "lead_from_the_front",
+      "name": "Lead From the Front",
+      "text": "Spend a total of 3 tokens from your tactic and/or strategy pools.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "negotiate_trade_routes",
+      "name": "Negotiate Trade Routes",
+      "text": "Spend 5 trade goods.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "sway_the_council",
+      "name": "Sway the Council",
+      "text": "Spend 8 influence.",
+      "phase": "status",
+      "victoryPoints": 1,
+      "type": "phase1"
+    },
+    {
+      "id": "form_galactic_brain_trust",
+      "name": "Form Galactic Brain Trust",
+      "text": "Control 5 planets that have technology specialties.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "conquer_the_weak",
+      "name": "Conquer the Weak",
+      "text": "Control 1 planet that is in another player's home system.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "subdue_the_galaxy",
+      "name": "Subdue the Galaxy",
+      "text": "Control 11 planets in non-home systems.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "unify_the_colonies",
+      "name": "Unify the Colonies",
+      "text": "Control 6 planets that each have the same planet trait.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "master_the_sciences",
+      "name": "Master the Sciences",
+      "text": "Own 2 techologies in each of 4 colors.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "revolutionize_warfare",
+      "name": "Revolutionize Warfare",
+      "text": "Own 3 unit upgrade technologies.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "galvanize_the_people",
+      "name": "Galvanize the People",
+      "text": "Spend a total of 6 tokens from your tactic and/or strategy pools.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "manipulate_galactic_law",
+      "name": "Manipulate Galactic Law",
+      "text": "Spend 16 influence.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "found_a_golden_age",
+      "name": "Found a Golden Age",
+      "text": "Spend 16 resources.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    },
+    {
+      "id": "centralize_galactic_trade",
+      "name": "Centralize Galactic Trade",
+      "text": "Spend 10 trade goods.",
+      "phase": "status",
+      "victoryPoints": 2,
+      "type": "phase2"
+    }
+   ]
