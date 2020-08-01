@@ -2,7 +2,7 @@
     {
       "id": "make_an_example_of_their_world",
       "name": "Make an Example of Their World",
-      "text": "Use BOMBARDMENT to destory the last of a player's ground forces on a planet.",
+      "text": "Use BOMBARDMENT to destroy the last of a player's ground forces on a planet.",
       "phase": "action",
       "victoryPoints": 1,
       "type": "secret"

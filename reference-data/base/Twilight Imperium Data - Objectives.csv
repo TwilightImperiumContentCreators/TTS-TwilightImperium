@@ -1,5 +1,5 @@
 id,name,text,phase,victoryPoints,type
-make_an_example_of_their_world,Make an Example of Their World,Use BOMBARDMENT to destory the last of a player's ground forces on a planet.,action,1,secret
+make_an_example_of_their_world,Make an Example of Their World,Use BOMBARDMENT to destroy the last of a player's ground forces on a planet.,action,1,secret
 spark_a_rebellion,Spark a Rebellion,Win a combat againt a player who has the most victory points.,action,1,secret
 turn_their_fleets_to_dust,Turn Their Fleets to Dust,Use SPACE CANNON to destroy the last of a player's ships in a system.,action,1,secret
 unveil_flagship,Unveil Flagship,"Win a space combat in a system that contains your flagship.
