@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "i4jxmbEY0Gaj1EKaENlIkpT/rLK335JwkRVxE7oUvxm0vLis66dj77fAhPEdO/MsMuol/jViPuM/jg+ELjoTbw==",
+  "success": true,
+  "projectFilePath": "C:\\work\\github\\TICC\\TTS-TwilightImperium\\prototyping\\TwilightImperium\\TwilightImperium.ContentModel\\TwilightImperium.ContentModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangreen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\dangreen\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\dangreen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dangreen\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

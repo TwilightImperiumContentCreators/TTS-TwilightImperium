@@ -1,0 +1,2 @@
+C:\work\github\TICC\TTS-TwilightImperium\prototyping\TwilightImperium\TwilightImperium.ContentModel\obj\Debug\netstandard2.0\TwilightImperium.ContentModel.AssemblyInfoInputs.cache
+C:\work\github\TICC\TTS-TwilightImperium\prototyping\TwilightImperium\TwilightImperium.ContentModel\obj\Debug\netstandard2.0\TwilightImperium.ContentModel.AssemblyInfo.cs
