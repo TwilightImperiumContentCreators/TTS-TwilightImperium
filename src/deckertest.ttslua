@@ -1,0 +1,16 @@
+--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]
+#include /lib/Decker/Decker
+
+--[[ The onLoad event is called after the game save finishes loading. --]]
+function onLoad()
+    local factiontechfront = 'https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-front.jpg';
+    local factiontechback = 'https://timod.blob.core.windows.net/mod-assets/texture-atlases/faction-technologies-back.jpg';
+    local factiontechdeckasset = Decker.Asset(factiontechfront, factiontechback, {width = 10, height = 6, uniqueBack=true});
+    local factiontechdeck = Decker.AssetDeck(factiontechdeckasset)
+    factiontechdeck:spawn({position= {0,0,0}})
+end
+
+--[[ The onUpdate event is called once per frame. --]]
+function onUpdate()
+    --[[ print('onUpdate loop!') --]]
+end

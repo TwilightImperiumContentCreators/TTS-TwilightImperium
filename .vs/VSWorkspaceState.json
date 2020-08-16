@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\prototyping",
+    "\\prototyping\\TwilightImperium",
+    "\\prototyping\\TwilightImperium\\TwilightImperium.ContentModel",
+    "\\prototyping\\TwilightImperium\\TwilightImperium.ContentModel\\bin",
+    "\\prototyping\\TwilightImperium\\TwilightImperium.ContentModel\\obj",
+    "\\specs",
+    "\\specs\\domain",
+    "\\src",
+    "\\test"
+  ],
+  "SelectedNode": "\\prototyping\\TwilightImperium\\TwilightImperium.ContentModel\\AssetEntity.cs",
+  "PreviewInSolutionExplorer": false
+}
