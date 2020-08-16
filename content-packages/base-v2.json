@@ -17,34 +17,34 @@
       "objectives_secret": {
         "cards": [
           {
-            "id": "make_an_example_of_their_world",
-            "name": "Make an Example of Their World",
-            "text": "Use BOMBARDMENT to destroy the last of a player's ground forces on a planet.",
-            "phase": "action",
+            "id": "adapt_new_strategies",
+            "name": "Adapt New Strategies",
+            "text": "Own 2 faction technologies.",
+            "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
           },
           {
-            "id": "spark_a_rebellion",
-            "name": "Spark a Rebellion",
-            "text": "Win a combat againt a player who has the most victory points.",
-            "phase": "action",
+            "id": "become_the_gatekeeper",
+            "name": "Become the Gatekeeper",
+            "text": "Have 1 or more ships in a system that contains an alpha wormhole and 1 or more ships in a system that contains a beta wormhole.",
+            "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
           },
           {
-            "id": "turn_their_fleets_to_dust",
-            "name": "Turn Their Fleets to Dust",
-            "text": "Use SPACE CANNON to destroy the last of a player's ships in a system.",
-            "phase": "action",
+            "id": "control_the_region",
+            "name": "Control the Region",
+            "text": "Have 1 or more ships in 6 systems.",
+            "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
           },
           {
-            "id": "unveil_flagship",
-            "name": "Unveil Flagship",
-            "text": "Win a space combat in a system that contains your flagship.\nYou cannot score this objective if your flagship is destroyed in the combat.",
-            "phase": "action",
+            "id": "cut_supply_lines",
+            "name": "Cut Supply Lines",
+            "text": "Have 1 or more ships in the same system as another player's space dock.",
+            "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
           },
@@ -57,25 +57,17 @@
             "type": "secret"
           },
           {
-            "id": "adapt_new_strategies",
-            "name": "Adapt New Strategies",
-            "text": "Own 2 faction technologies.",
-            "phase": "status",
-            "victoryPoints": 1,
-            "type": "secret"
-          },
-          {
-            "id": "master_the_laws_of_physics",
-            "name": "Master the Laws of Physics",
-            "text": "Own 4 technologies of the same color.",
-            "phase": "status",
-            "victoryPoints": 1,
-            "type": "secret"
-          },
-          {
             "id": "establish_a_perimeter",
             "name": "Establish a Perimeter",
             "text": "Have 4 PDS units on the game board.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "secret"
+          },
+          {
+            "id": "forge_an_alliance",
+            "name": "Forge an Alliance",
+            "text": "Control 4 cultural planets.",
             "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
@@ -105,14 +97,6 @@
             "type": "secret"
           },
           {
-            "id": "forge_an_alliance",
-            "name": "Forge an Alliance",
-            "text": "Control 4 cultural planets.",
-            "phase": "status",
-            "victoryPoints": 1,
-            "type": "secret"
-          },
-          {
             "id": "learn_secrets_of_the_cosmos",
             "name": "Learn Secrets of the Cosmos",
             "text": "Have 1 or more ships in 3 systems that are each adjacent to an anomaly.",
@@ -121,25 +105,17 @@
             "type": "secret"
           },
           {
-            "id": "threaten_enemies",
-            "name": "Threaten Enemies",
-            "text": "Have 1 or more ships in a system that is adjacent to another player's home system.",
-            "phase": "status",
+            "id": "make_an_example_of_their_world",
+            "name": "Make an Example of Their World",
+            "text": "Use BOMBARDMENT to destroy the last of a player's ground forces on a planet.",
+            "phase": "action",
             "victoryPoints": 1,
             "type": "secret"
           },
           {
-            "id": "become_the_gatekeeper",
-            "name": "Become the Gatekeeper",
-            "text": "Have 1 or more ships in a system that contains an alpha wormhole and 1 or more ships in a system that contains a beta wormhole.",
-            "phase": "status",
-            "victoryPoints": 1,
-            "type": "secret"
-          },
-          {
-            "id": "cut_supply_lines",
-            "name": "Cut Supply Lines",
-            "text": "Have 1 or more ships in the same system as another player's space dock.",
+            "id": "master_the_laws_of_physics",
+            "name": "Master the Laws of Physics",
+            "text": "Own 4 technologies of the same color.",
             "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
@@ -167,12 +143,36 @@
             "phase": "status",
             "victoryPoints": 1,
             "type": "secret"
+          }
+          {
+            "id": "spark_a_rebellion",
+            "name": "Spark a Rebellion",
+            "text": "Win a combat againt a player who has the most victory points.",
+            "phase": "action",
+            "victoryPoints": 1,
+            "type": "secret"
           },
           {
-            "id": "control_the_region",
-            "name": "Control the Region",
-            "text": "Have 1 or more ships in 6 systems.",
+            "id": "threaten_enemies",
+            "name": "Threaten Enemies",
+            "text": "Have 1 or more ships in a system that is adjacent to another player's home system.",
             "phase": "status",
+            "victoryPoints": 1,
+            "type": "secret"
+          },
+          {
+            "id": "turn_their_fleets_to_dust",
+            "name": "Turn Their Fleets to Dust",
+            "text": "Use SPACE CANNON to destroy the last of a player's ships in a system.",
+            "phase": "action",
+            "victoryPoints": 1,
+            "type": "secret"
+          },
+          {
+            "id": "unveil_flagship",
+            "name": "Unveil Flagship",
+            "text": "Win a space combat in a system that contains your flagship.\nYou cannot score this objective if your flagship is destroyed in the combat.",
+            "phase": "action",
             "victoryPoints": 1,
             "type": "secret"
           }
