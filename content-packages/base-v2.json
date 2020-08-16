@@ -3,11 +3,29 @@
     "decks": {
       "objectives_secret": {
         "displayName": "Secret Objectives",
-        "tooltip": "The secret objectives deck",
+        "tooltip": "The Secret Objectives Deck",
         "frontUri": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/objectives-secret.jpg",
         "backUri": "https://timod.blob.core.windows.net/mod-assets/deck-backs/objectives-secret.png",
         "columns": 5,
         "rows": 4,
+        "isSingleImageBack": true
+      },
+      "objectives_stage1": {
+        "displayName": "Stage I Objectives",
+        "tooltip": "The Stage I Objectives Deck",
+        "frontUri": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/objectives-stage1.png",
+        "backUri": "https://timod.blob.core.windows.net/mod-assets/deck-backs/objectives-stage1.png",
+        "columns": 5,
+        "rows": 2,
+        "isSingleImageBack": true
+      },
+      "objectives_stage2": {
+        "displayName": "Stage II Objectives",
+        "tooltip": "The Stage II Objectives Deck",
+        "frontUri": "https://timod.blob.core.windows.net/mod-assets/texture-atlases/objectives-stage2.png",
+        "backUri": "https://timod.blob.core.windows.net/mod-assets/deck-backs/objectives-stage2.png",
+        "columns": 5,
+        "rows": 2,
         "isSingleImageBack": true
       }
     }
@@ -176,6 +194,174 @@
             "victoryPoints": 1,
             "type": "secret"
           }
+        ]
+      },
+      "objectives_stage1": {
+        "cards": [
+          {
+            "id": "corner_the_market",
+            "name": "Corner the Market",
+            "text": "Control 4 planets that each have the same planet trait.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "develop_weaponry",
+            "name": "Develop Weaponry",
+            "text": "Own 2 unit upgrade techonologies.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "diversify_research",
+            "name": "Diversify Research",
+            "text": "Own 2 technologies in each of 2 colors.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "erect_a_monument",
+            "name": "Erect a Monument",
+            "text": "Spend 8 resources.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "expand_borders",
+            "name": "Expand Borders",
+            "text": "Control 6 planets in non-home systems.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "found_research_outposts",
+            "name": "Found Research Outposts",
+            "text": "Control 3 planets that have technology specialties.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "intimidate_council",
+            "name": "Intimidate Council",
+            "text": "Have 1 or more ships in 2 systems that are adjacent to Mecatol Rex's system.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "lead_from_the_front",
+            "name": "Lead From the Front",
+            "text": "Spend a total of 3 tokens from your tactic and/or strategy pools.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "negotiate_trade_routes",
+            "name": "Negotiate Trade Routes",
+            "text": "Spend 5 trade goods.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          },
+          {
+            "id": "sway_the_council",
+            "name": "Sway the Council",
+            "text": "Spend 8 influence.",
+            "phase": "status",
+            "victoryPoints": 1,
+            "type": "stage1"
+          }
+        ]
+      },
+      "objectives_stage2": {
+        "cards": [
+          {
+            "id": "centralize_galactic_trade",
+            "name": "Centralize Galactic Trade",
+            "text": "Spend 10 trade goods.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "conquer_the_weak",
+            "name": "Conquer the Weak",
+            "text": "Control 1 planet that is in another player's home system.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "form_galactic_brain_trust",
+            "name": "Form Galactic Brain Trust",
+            "text": "Control 5 planets that have technology specialties.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "found_a_golden_age",
+            "name": "Found a Golden Age",
+            "text": "Spend 16 resources.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "galvanize_the_people",
+            "name": "Galvanize the People",
+            "text": "Spend a total of 6 tokens from your tactic and/or strategy pools.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "manipulate_galactic_law",
+            "name": "Manipulate Galactic Law",
+            "text": "Spend 16 influence.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "master_the_sciences",
+            "name": "Master the Sciences",
+            "text": "Own 2 techologies in each of 4 colors.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "revolutionize_warfare",
+            "name": "Revolutionize Warfare",
+            "text": "Own 3 unit upgrade technologies.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "subdue_the_galaxy",
+            "name": "Subdue the Galaxy",
+            "text": "Control 11 planets in non-home systems.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          },
+          {
+            "id": "unify_the_colonies",
+            "name": "Unify the Colonies",
+            "text": "Control 6 planets that each have the same planet trait.",
+            "phase": "status",
+            "victoryPoints": 2,
+            "type": "stage2"
+          }         
         ]
       }
     }

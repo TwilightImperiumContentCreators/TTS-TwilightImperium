@@ -165,7 +165,7 @@
       "text": "Have 1 or more ships in 2 systems that are adjacent to Mecatol Rex's system.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "expand_borders",
@@ -173,7 +173,7 @@
       "text": "Control 6 planets in non-home systems.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "corner_the_market",
@@ -181,7 +181,7 @@
       "text": "Control 4 planets that each have the same planet trait.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "found_research_outposts",
@@ -189,7 +189,7 @@
       "text": "Control 3 planets that have technology specialties.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "diversify_research",
@@ -197,7 +197,7 @@
       "text": "Own 2 technologies in each of 2 colors.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "develop_weaponry",
@@ -205,7 +205,7 @@
       "text": "Own 2 unit upgrade techonologies.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "erect_a_monument",
@@ -213,7 +213,7 @@
       "text": "Spend 8 resources.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "lead_from_the_front",
@@ -221,7 +221,7 @@
       "text": "Spend a total of 3 tokens from your tactic and/or strategy pools.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "negotiate_trade_routes",
@@ -229,7 +229,7 @@
       "text": "Spend 5 trade goods.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "sway_the_council",
@@ -237,7 +237,7 @@
       "text": "Spend 8 influence.",
       "phase": "status",
       "victoryPoints": 1,
-      "type": "phase1"
+      "type": "stage1"
     },
     {
       "id": "form_galactic_brain_trust",
@@ -245,7 +245,7 @@
       "text": "Control 5 planets that have technology specialties.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "conquer_the_weak",
@@ -253,7 +253,7 @@
       "text": "Control 1 planet that is in another player's home system.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "subdue_the_galaxy",
@@ -261,7 +261,7 @@
       "text": "Control 11 planets in non-home systems.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "unify_the_colonies",
@@ -269,7 +269,7 @@
       "text": "Control 6 planets that each have the same planet trait.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "master_the_sciences",
@@ -277,7 +277,7 @@
       "text": "Own 2 techologies in each of 4 colors.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "revolutionize_warfare",
@@ -285,7 +285,7 @@
       "text": "Own 3 unit upgrade technologies.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "galvanize_the_people",
@@ -293,7 +293,7 @@
       "text": "Spend a total of 6 tokens from your tactic and/or strategy pools.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "manipulate_galactic_law",
@@ -301,7 +301,7 @@
       "text": "Spend 16 influence.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "found_a_golden_age",
@@ -309,7 +309,7 @@
       "text": "Spend 16 resources.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     },
     {
       "id": "centralize_galactic_trade",
@@ -317,6 +317,6 @@
       "text": "Spend 10 trade goods.",
       "phase": "status",
       "victoryPoints": 2,
-      "type": "phase2"
+      "type": "stage2"
     }
    ]

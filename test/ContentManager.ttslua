@@ -28,23 +28,34 @@ function handleRequest (request)
     local package = JSON.decode(request.text);
     contentManager:addContentPackage(package);
 
-    local content = contentManager:flatten();
+    --local content = contentManager:flatten();
+
     local deckGenerator = DeckGenerator()
-    local asset = DeckAsset(
-            package.assets.decks.objectives_secret.frontUri,
-            package.assets.decks.objectives_secret.backUri,
-            package.assets.decks.objectives_secret.columns,
-            package.assets.decks.objectives_secret.rows,
-            false,
-            package.assets.decks.objectives_secret.isSingleImageBack)
 
-    local cards = {}
-    for _,v in ipairs(package.content.decks.objectives_secret.cards) do
+    local transform = {
+      posX = 0, posY = 0, posZ = 0,
+      rotX = 0, rotY = 0, rotZ = 0,
+      scaleX = 1, scaleY = 1, scaleZ = 1
+    }
+
+    for k in pairs(package.content.decks) do
+      local asset = DeckAsset(
+              package.assets.decks[k].frontUri,
+              package.assets.decks[k].backUri,
+              package.assets.decks[k].columns,
+              package.assets.decks[k].rows,
+              false,
+              package.assets.decks[k].isSingleImageBack)
+
+      local cards = {}
+      for _,v in ipairs(package.content.decks[k].cards) do
         table.insert(cards, CardModel(v.name, v.text))
-    end
+      end
 
-    local deck = DeckModel(package.assets.decks.objectives_secret.displayName, package.assets.decks.objectives_secret.tooltip, cards, asset)
-    local deckObject = deckGenerator.Spawn(deck)
+      local deck = DeckModel(package.assets.decks[k].displayName, package.assets.decks[k].tooltip, cards, asset)
+      local deckObject = deckGenerator.Spawn(deck, transform)
+      transform.posX = transform.posX + 5.0
+    end
   end
 end
 
